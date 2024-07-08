@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+</head>
+<body>
+    <h2>Signup Form</h2>
+    <form action="/submit_signup" method="post">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"  placeholder="NAME"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="password" required><br><br>
+
+        <label for="confirm_password">Confirm Password:</label><br>
+        <input type="password" id="confirm_password" name="confirm_password" placeholder="conrfirm password"required><br><br>
+
+        <button type="submit">signup</button>
+        <h1>Check box</h1>  
+        <label for="age">Age:</label>
+        <input type="Check box" name="age" id="age" checked required>   
+    </form>
+    <h1>Radio Button</h1>
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="male">
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="Female">
+    <h1>Drop Down</h1>
+    <label for="Language">Language:</label>
+    <select name="Language" id="language">
+        <option value="">c</option>
+        <option value="">c++</option>
+        <option value="">Python</option>
+        <option value="">Java</option>
+        <option value="">react</option>
+
+
+
+    </select>
+</body>
+</html>
