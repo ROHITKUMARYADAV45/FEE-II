@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition </title>
+    <style>
+        .box{
+            border: black solid 2px;
+            height:200px;
+            width:200px;
+            transition: width 2s, height 2s, background-color 2s, rotate 2s;
+
+        }
+        
+        .box:hover{
+            width:300px;
+            rotate:180deg;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    
+</body>
+</html>
